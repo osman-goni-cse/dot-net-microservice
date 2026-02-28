@@ -7,6 +7,7 @@ spec:
   selector:
     app: platformservice
   ports:
-    - port: 8080
+    - name: platformservice
+      protocol: TCP
+      port: 80
       targetPort: 80
-      nodePort: 30080

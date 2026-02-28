@@ -23,7 +23,7 @@ public static class PrepDb
                }
                catch (Exception e)
                {
-                    Console.WriteLine(e);
+                    Console.WriteLine("Cannot run migrations", e);
                     throw;
                }
           }

@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/osman/RiderProjects/PlatformService/CommandsService/CommandsService.csproj": {}
+    "/Users/osman/Developer/dot-net-microservice/CommandsService/CommandsService.csproj": {}
   },
   "projects": {
-    "/home/osman/RiderProjects/PlatformService/CommandsService/CommandsService.csproj": {
+    "/Users/osman/Developer/dot-net-microservice/CommandsService/CommandsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/osman/RiderProjects/PlatformService/CommandsService/CommandsService.csproj",
+        "projectUniqueName": "/Users/osman/Developer/dot-net-microservice/CommandsService/CommandsService.csproj",
         "projectName": "CommandsService",
-        "projectPath": "/home/osman/RiderProjects/PlatformService/CommandsService/CommandsService.csproj",
-        "packagesPath": "/home/osman/.nuget/packages/",
-        "outputPath": "/home/osman/RiderProjects/PlatformService/CommandsService/obj/",
+        "projectPath": "/Users/osman/Developer/dot-net-microservice/CommandsService/CommandsService.csproj",
+        "packagesPath": "/Users/osman/.nuget/packages/",
+        "outputPath": "/Users/osman/Developer/dot-net-microservice/CommandsService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/osman/.nuget/NuGet/NuGet.Config"
+          "/Users/osman/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -37,11 +37,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -53,25 +54,25 @@
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[8.0.20, )"
+              "version": "[9.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -97,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

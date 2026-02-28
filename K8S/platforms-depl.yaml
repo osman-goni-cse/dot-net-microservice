@@ -14,10 +14,9 @@ spec:
     spec:
       containers:
         - name: platformservice
-          image: mdosmani/platformservice:latest
-          ports:
-            - containerPort: 80
-
+          image: mdosmani/platformservice:v2
+          imagePullPolicy: Always
+          
 ---
 apiVersion: v1
 kind: Service
@@ -30,5 +29,5 @@ spec:
   ports:
     - name: platformservice
       protocol: TCP
-      port: 8080
+      port: 80
       targetPort: 80

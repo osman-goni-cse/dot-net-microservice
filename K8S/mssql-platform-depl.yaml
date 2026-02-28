@@ -32,7 +32,6 @@ spec:
               name: mssqldb
       volumes:
         - name: mssqldb
-#          emptyDir: {}
           persistentVolumeClaim:
             claimName: mssql-claim
 ---
