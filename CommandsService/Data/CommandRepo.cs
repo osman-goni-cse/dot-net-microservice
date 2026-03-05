@@ -31,10 +31,10 @@ public class CommandRepo : ICommandRepo
         _context.Platforms.Add(plat);
     }
 
-    // public bool ExternalPlatformExists(int externalPlatformId)
-    // {
-    //     return _context.Platforms.Any(p => p.ExternalID == externalPlatformId);
-    // }
+    public bool ExternalPlatformExists(int externalPlatformId)
+    {
+         return _context.Platforms.Any(p => p.ExternalId == externalPlatformId);
+    }
 
     public IEnumerable<Platform> GetAllPlatforms()
     {
