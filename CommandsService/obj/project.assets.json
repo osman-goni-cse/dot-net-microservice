@@ -5247,24 +5247,25 @@
     ]
   },
   "packageFolders": {
-    "/Users/osman/.nuget/packages/": {}
+    "/home/osman/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/osman/Developer/dot-net-microservice/CommandsService/CommandsService.csproj",
+      "projectUniqueName": "/home/osman/RiderProjects/PlatformService/CommandsService/CommandsService.csproj",
       "projectName": "CommandsService",
-      "projectPath": "/Users/osman/Developer/dot-net-microservice/CommandsService/CommandsService.csproj",
-      "packagesPath": "/Users/osman/.nuget/packages/",
-      "outputPath": "/Users/osman/Developer/dot-net-microservice/CommandsService/obj/",
+      "projectPath": "/home/osman/RiderProjects/PlatformService/CommandsService/CommandsService.csproj",
+      "packagesPath": "/home/osman/.nuget/packages/",
+      "outputPath": "/home/osman/RiderProjects/PlatformService/CommandsService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/osman/.nuget/NuGet/NuGet.Config"
+        "/home/osman/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5283,7 +5284,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -5343,7 +5344,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.311/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.114/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
